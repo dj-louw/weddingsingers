@@ -1,0 +1,45 @@
+@font-face { font-family: Bromello; src: url('src/bromello.ttf'); } 
+
+html {
+	padding-bottom: 700px !important;
+}
+
+body {
+  padding-top: 5rem;
+  position: relative;
+/*  overflow: hidden;*/
+}
+
+#navbar img {
+	height : 56px;
+}
+
+.title img{
+/*	background-image: url("src/header.png");
+	background-size: 60%;
+	background-position:center;
+	background-repeat: no-repeat;*/
+	text-align: center;
+	width: 70%;
+}
+
+.title h1 {
+	font-family: Bromello;
+	display: none;
+}
+
+h1 {
+	padding-top : 5rem;
+	font-family: 'Alegreya', serif;
+}
+
+.main_container {
+	padding: 3rem 1.5rem;
+	text-align: center;
+}
+
+.para_container {
+	text-align:  left;
+	/*padding: 3rem 0rem;*/
+	margin : 10%;
+}
